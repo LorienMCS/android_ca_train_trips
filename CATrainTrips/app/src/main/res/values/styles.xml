@@ -6,15 +6,15 @@
         <item name="colorPrimary">#009688</item>
         <item name="colorPrimaryDark">#00796B</item>
         <item name="colorAccent">#9E9E9E</item>
-        <item name="colorButtonNormal">#9E9E9E</item>
     </style>
 
-    <!-- Style for buttons on the menu page -->
-    <style name="ButtonStyle">
+    <!-- Style for ImageButtons on the menu page -->
+    <style name="ImgButtonStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0dp</item>
-        <item name="android:layout_marginBottom">4dp</item>
         <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@null</item>
     </style>
 
 </resources>
